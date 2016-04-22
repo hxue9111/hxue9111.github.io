@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
 
 
 /* Reset */
@@ -53,7 +57,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Raleway', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -179,7 +183,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("../images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -305,7 +309,7 @@
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-image: url("../images/overlay-pattern.png"), url("../images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -504,17 +508,18 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+
 	}
 
 		#header h1 {
 			font-size: 4.35em;
-			font-weight: 900;
-			letter-spacing: -0.035em;
-			line-height: 1em;
+			/*font-weight: 900;*/
+			/*letter-spacing: -0.035em;*/
+			line-height: 1.5em;
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.25em
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
