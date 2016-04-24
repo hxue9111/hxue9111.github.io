@@ -183,7 +183,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("../images/bg2.png") top left;
+		background: #348cb2 url("../images/bg.png") top left;
 		background-repeat: repeat-x;
 		background-size: cover;
 		height: 100%;
