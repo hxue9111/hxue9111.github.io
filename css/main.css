@@ -183,9 +183,11 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("../images/bg.jpg") bottom left;
+		background: #348cb2 url("../images/bg2.png") top left;
 		background-repeat: repeat-x;
+		background-size: cover;
 		height: 100%;
+		width: 4800px;
 		left: 0;
 		opacity: 1;
 		position: fixed;
@@ -257,8 +259,8 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		/*background-size: 2250px auto;*/
+		/*width: 6750px;*/
 	}
 
 /* Overlay */
@@ -508,7 +510,6 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
-
 	}
 
 		#header h1 {
@@ -762,8 +763,8 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
+			/*background-size: 1500px auto;*/
+			/*width: 4500px;*/
 		} }
 
 /* Normal */
@@ -844,8 +845,8 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
+			/*background-size: 750px auto;*/
+			/*width: 2250px;*/
 		} }
 
 /* Mobile */
@@ -930,8 +931,8 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			/*background-size: 300px auto;*/
+			/*width: 900px;*/
 		}
 
 	/* Header */
@@ -1028,8 +1029,8 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
+			/*background-size: 412.5px auto;*/
+			/*width: 1237.5px;*/
 		}
 
 	/* Header */
